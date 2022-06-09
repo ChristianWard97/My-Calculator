@@ -30,7 +30,7 @@ return (
 <div className="App">
 <div>
 <h1>My Calculator</h1>
-<h2>{input}</h2>
+<h2 data-testid='display'>{input}</h2>
 
 <Operators handleClick={handleClick}/>
 <Numbers handleClick={handleClick}/>
